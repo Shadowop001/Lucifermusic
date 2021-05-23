@@ -444,7 +444,7 @@ async def play(_, message: Message):
         #lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i> @VCPlayRobot Userbot not in this chat, Ask admin to send /play command for first time or add assistant manually</i>"
+            f"<i> @LUCIFER_VC Userbot not in this chat, Ask admin to send /play command for first time or add assistant manually</i>"
         )
         return     
     sender_id = message.from_user.id
@@ -533,7 +533,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="✯𝗩𝗖𝗣𝗹𝗮𝘆✯▶️ **Playing** here the song requested by {} 😜".format(
+        caption="𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐌𝐔𝐒𝐈𝐂▶️ **Playing** here the song requested by {} ".format(
         message.from_user.mention()
         ),
     )
@@ -554,7 +554,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "VCPlayBot"
+        user.first_name =  "LUCIFER_OP_MUSIC_BOT"
     usar = user
     wew = usar.id
     try:
@@ -575,7 +575,7 @@ async def deezer(client: Client, message_: Message):
                               await USER.join_chat(invitelink)
                               await USER.send_message(message_.chat.id,"I joined this group for playing music in VC")
                               await lel.edit(
-                                  "<b>@VCPlayRoBot userbot joined your chat</b>",
+                                  "<b>@LUCIFER_VC userbot joined your chat</b>",
                               )
 
                           except UserAlreadyParticipant:
@@ -647,9 +647,9 @@ async def deezer(client: Client, message_: Message):
         loc = file_path
         appendable = [s_name, r_by, loc]
         qeue.append(appendable)
-        await res.edit_text(f"✯𝗩𝗖𝗣𝗹𝗮𝘆✯=#️⃣ Queued at position {position}")
+        await res.edit_text(f"𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐌𝐔𝐒𝐈𝐂=#️⃣ Queued at position {position}")
     else:
-        await res.edit_text("✯𝗩𝗖𝗣𝗹𝗮𝘆✯=▶️ Playing.....")
+        await res.edit_text("𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐌𝐔𝐒𝐈𝐂=▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
@@ -714,7 +714,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @VCPlayRobot to your Group and try again</b>",
+                                  "\n\nOr manually add @LUCIFER_VC to your Group and try again</b>",
                               )
                               pass
     try:
@@ -722,7 +722,7 @@ async def jiosaavn(client: Client, message_: Message):
         #lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            "<i> @VCPlayRobot helper Userbot not in this chat, Ask admin to send /play command for first time or add assistant manually</i>"
+            "<i> @LUCIFER_VC helper Userbot not in this chat, Ask admin to send /play command for first time or add assistant manually</i>"
         )
         return     
     requested_by = message_.from_user.first_name
@@ -757,8 +757,8 @@ async def jiosaavn(client: Client, message_: Message):
              ],                     
              [
                InlineKeyboardButton(
-                   text="Join Updates Channel",
-                   url='https://t.me/LaylaList')
+                   text="Owner",
+                   url='https://t.me/D3VIL_LUCIFER')
              ],
              [       
                InlineKeyboardButton(
@@ -782,12 +782,12 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"✯𝗩𝗖𝗣𝗹𝗮𝘆✯=#️⃣ Queued at position {position}",
+            caption=f"𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐌𝐔𝐒𝐈𝐂=#️⃣ Queued at position {position}",
         
         )           
            
     else:
-        await res.edit_text("✯𝗩𝗖𝗣𝗹𝗮𝘆✯=▶️ Playing.....")
+        await res.edit_text("𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐌𝐔𝐒𝐈𝐂=▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
