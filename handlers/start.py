@@ -13,7 +13,7 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
 \nI am  𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐌𝐔𝐒𝐈𝐂, an efficient and a perfect bot that lets you play music in your Telegram groups voice chat
-Maintained by @D3VIL_LUCIFER ❤
+Maintained by @D3VIL_LUCIFER 
 \nTo add in your group contact @D3VIL_LUCIFER.
 \nHit /help list of available commands.
  </b>""",
@@ -97,9 +97,6 @@ async def help(client: Client, message: Message):
                 [
                     InlineKeyboardButton(
                         "👑 Owner", url="https://t.me/D3VIL_LUCIFER"
-                    ),
-                    InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/AwesomeSupport"
                     )
                 ]
             ]
