@@ -9,7 +9,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & ~ filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgUAAxkBAAIp9mBtwBBZGywWEmV-WC8gcMArjusuAAKMAgACTp1xV6m-mtC1YTfoHgQ")
+    await message.reply_sticker("CAACAgIAAx0CS3uSDgACCXFgq2Z06ZZ64aOjyc0xt3l4vFM3HAACzQsAAnNKWEkyBTLDU--O7R8E")
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
 \nI am  𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐌𝐔𝐒𝐈𝐂, an efficient and a perfect bot that lets you play music in your Telegram groups voice chat
