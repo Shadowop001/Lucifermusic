@@ -12,7 +12,7 @@ async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgIAAx0CS3uSDgACCXFgq2Z06ZZ64aOjyc0xt3l4vFM3HAACzQsAAnNKWEkyBTLDU--O7R8E")
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
-\n𝙸 𝚊𝚖 {bn} !! 𝙸 𝚕𝚎𝚝 𝚢𝚘𝚞 𝚙𝚕𝚊𝚢 𝚖𝚞𝚜𝚒𝚌 𝚒𝚗 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙'𝚜 𝚟𝚘𝚒𝚌𝚎 𝚌𝚑𝚊𝚝 ✨🥀 𝙼𝚊𝚒𝚗𝚝𝚊𝚒𝚗𝚎𝚍 𝚋𝚢:- @D3VIL_LUCIFER 
+\n𝙸 𝚊𝚖 {bn} !! 𝙸 𝚕𝚎𝚝 𝚢𝚘𝚞 𝚙𝚕𝚊𝚢 𝚖𝚞𝚜𝚒𝚌 𝚒𝚗 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙'𝚜 𝚟𝚘𝚒𝚌𝚎 𝚌𝚑𝚊𝚝 ✨🥀 𝙼𝚊𝚒𝚗𝚝𝚊𝚒𝚗𝚎𝚍 𝚋𝚢:- @D3VIL_LUCIFER.
 \nTo add in your group contact @D3VIL_LUCIFER.
 \nHit /help list of available commands.
  </b>""",
