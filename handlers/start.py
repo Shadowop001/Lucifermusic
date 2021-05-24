@@ -12,7 +12,7 @@ async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgUAAxkBAAIp9mBtwBBZGywWEmV-WC8gcMArjusuAAKMAgACTp1xV6m-mtC1YTfoHgQ")
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
-\nI can play music in your group's voice chat
+\nI am  𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐌𝐔𝐒𝐈𝐂, an efficient and a perfect bot that lets you play music in your Telegram groups voice chat
 Maintained by @D3VIL_LUCIFER ❤
 \nTo add in your group contact @D3VIL_LUCIFER.
 \nHit /help list of available commands.
@@ -47,10 +47,10 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList"
+                        "👑 Owner", url="https://t.me/D3VIL_LUCIFER"
                     ),
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/AwesomeSupport"
+                        "💬 Group", url="https://t.me/"
                     )
                 ],    
                 [    
@@ -96,7 +96,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList"
+                        "👑 Owner", url="https://t.me/D3VIL_LUCIFER"
                     ),
                     InlineKeyboardButton(
                         "💬 Group", url="https://t.me/AwesomeSupport"
